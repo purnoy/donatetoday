@@ -453,14 +453,12 @@ body{
     padding: 30px;
 }
 #get-update .subscribe .boxed-subscribe{
-    display: flex;
-    align-items: center;
-    justify-content: center;
     height: 300px;
     width: 820px;
     background-color: rgb(249, 232, 187);
     margin: 10px;
     border-radius: 3px;
+    padding: 5% 20px;
     cursor: pointer;
 }
 #get-update .subscribe .boxed-subscribe form input{
