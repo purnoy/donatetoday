@@ -5,9 +5,6 @@
     padding: 0;
     box-sizing: inherit;
 }
-html{
-    font-size: 62.5%;
-}
 body{
     font-family: 'Poppins', sans-serif;
     font-weight: 400;
@@ -429,7 +426,6 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
-    border-bottom: ;
 }
 #get-update .row{
     height: 60%;
@@ -457,23 +453,25 @@ body{
     padding: 30px;
 }
 #get-update .subscribe .boxed-subscribe{
-    height: 200px;
+    height: 300px;
     width: 820px;
     background-color: rgb(249, 232, 187);
     margin: 10px;
     border-radius: 3px;
-    padding: 10% 20px;
+    padding: 5% 20px;
     cursor: pointer;
 }
-#get-update .subscribe .boxed-subscribe input{
+#get-update .subscribe .boxed-subscribe form input{
     padding: 8px;
     font-size: 18px;
+    margin-bottom: 20px;
     border: none;
     outline: 3px solid #fff;;
     transition: .3s linear;
     color: #333;
     width: 40%;
     box-shadow: 1px 1px 5px rgba(0,0,0,0.4);
+    border-radius: 5px;
 }
 #get-update .subscribe .boxed-subscribe input:focus{
     outline: 3px solid #ff5959;
@@ -481,20 +479,21 @@ body{
 #get-update .subscribe .boxed-subscribe .btn{
     display: inline-block;
     width: 25%;
+    border: none;
     padding: 10px 25px;
     color: #fff;
     text-decoration: none;
     margin: 0 auto; 
     font-size: 19px;
     background-color: #ff5959;
-    box-shadow: 1px 1px 5px rgba(0,0,0,0.4);
+    box-shadow: 1px 1px 5px rgba(0,0,0,0.6);
     transition: .3s linear;
-    margin-left:-1px;
+    border-radius: 5px;
 }
 #get-update .subscribe .boxed-subscribe .btn:hover{
     background-color: rgba(255, 87, 87,1);
-    box-shadow: 1px 1px 3px rgba(0,0,0,0.2);
-
+    box-shadow: 1px 1px 3px rgba(0,0,0,0.3);
+    transform: translateY(1px);
 }
 /*Get Upadte section Ends*/
 
